@@ -1,0 +1,23 @@
+# Runtime deps for the containerised Gradio app.
+# Notebook deps (jupyter, ipykernel) are intentionally excluded.
+# Torch is pinned to the CPU wheel index — saves ~2.5GB of NVIDIA CUDA libs we'd never use.
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+catboost==1.2.7
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+gradio==5.8.0
+pyarrow==17.0.0
+requests==2.32.3
+
+# Phase 2 — visual damage detection
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+ultralytics==8.3.40
+opencv-python-headless==4.10.0.84
+pillow==11.0.0
+huggingface-hub==0.26.2

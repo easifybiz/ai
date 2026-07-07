@@ -1,0 +1,10 @@
+fastapi>=0.115.2
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+gradio>=5.8.0
+catboost==1.2.7
+pandas==2.2.3
+numpy==1.26.4
+ultralytics==8.3.40
+opencv-python-headless==4.10.0.84
+pillow==11.0.0

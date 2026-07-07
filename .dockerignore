@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+notebooks/
+data/
+gradio_cached_examples/
+flagged/
+.env
+.env.*
+.DS_Store
+.vscode/
+build_audit_docx.py
+SERVER_AUDIT_REPORT.*
